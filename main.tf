@@ -27,8 +27,8 @@ module "python_app" {
 module "helm_release" {
   source = "./modules/helm"
   project_id = "aqueous-sandbox-432016-j4"
-  chart_name = "python_app"
-  helm_repo_url = "https://notlgbt.github.io/OptimalCityTask"
+  chart_name = "python-app"
+  helm_repo_url = "https://notlgbt.github.io/optimalcitytask"
   region = "europe-central2"
   cluster = "my-gke-cluster"
 }
