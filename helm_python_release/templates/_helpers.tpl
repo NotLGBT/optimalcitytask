@@ -10,7 +10,6 @@ Expand the name of the chart with a "simpledimple" prefix.
 {{/*
 Create a default fully qualified app name with "simpledimple" prefix.
 Truncated to 63 characters as per DNS naming spec.
-If release name contains chart name, it will be used as a full name.
 */}}
 {{- define "python_app.fullname" -}}
 {{- if .Values.fullnameOverride }}

@@ -22,6 +22,8 @@ provider "kubernetes" {
 provider "helm" {
   kubernetes {
     config_path = "~/.kube/config"
+    host        = "https://34.118.69.126"
+    
   }
 
   # registry {
