@@ -9,6 +9,7 @@ entries:
     name: python_app
     type: application
     urls:
-    - https://notlgbt.github.io/OptimalCityTask/docs/python_app-0.1.0.tgz
+    - https://notlgbt.github.io/optimalcitytask/docs/python_app-0.1.0.tgz
+    # - https://github.com/notlgbt/OptimalCityTask/raw/main/docs/python_app-0.1.0.tgz
     version: 0.1.0
 generated: "2024-11-08T14:26:23.847506226+03:00"
